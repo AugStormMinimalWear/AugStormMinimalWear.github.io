@@ -1,60 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Poppins);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+.photo {
+  border: 5px solid;
+  margin: auto;
+  width: 500px;
+  height: 500px;
 }
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20x 100px;
-  background: gray;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 99;
+.text {
+  text-align: center;
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.logo {
-  font-size: 2em;
-  color: white;
-  user-select: none;
-}
-.navigation a {
-  position: relative;
-  font-size: 1.1em;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-  margin-left: 40px;
-}
-.navigation a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: white;
-  border-radius: 5px;
-}
-.navigation .btnLogIn-popup {
-  width: 140px;
-  height: 50px;
-  background: transparent;
-  border: 2px solid white;
-  outline: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1.1em;
-  color: white;
-  font-weight: 500px;
-  margin-left: 40px;
-  transition: 0.5s;
-}
-.navigation .btnLogIn-popup:hover {
-  background-color: white;
-  color: black;
+img {
+  width: 500px;
+  height: 500px;
 }
