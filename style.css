@@ -1,15 +1,28 @@
 .photo {
+  float: left;
   border: 5px solid;
-  margin: auto;
-  width: 500px;
-  height: 500px;
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
 }
 .text {
   text-align: center;
   color: blueviolet;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-img {
-  width: 500px;
-  height: 500px;
+.photo2 {
+  float: left;
+  border: 5px solid;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+.cat {
+  width: 150px;
+  height: 150px;
+}
+.aug {
+  width: 150px;
+  height: 150px;
 }
