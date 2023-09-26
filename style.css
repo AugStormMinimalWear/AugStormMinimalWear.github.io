@@ -26,3 +26,12 @@
   width: 150px;
   height: 150px;
 }
+.baslik{
+  width: 1920px;
+  float: left;
+}
+.metin{
+  padding-left: 30px;
+  float: left;
+  padding-right: 80px;
+}
