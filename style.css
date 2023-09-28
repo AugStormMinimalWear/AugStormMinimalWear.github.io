@@ -1,37 +1,32 @@
-.photo {
-  float: left;
-  border: 5px solid;
-  margin-right: 10px;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-}
-.text {
-  text-align: center;
-  color: blueviolet;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-.photo2 {
-  float: left;
-  border: 5px solid;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-}
-.cat {
-  width: 150px;
-  height: 150px;
-}
-.aug {
-  width: 150px;
-  height: 150px;
-}
-.baslik{
+#main{
   width: 1920px;
-  float: left;
+  height: 1000px;
+  background-color: red;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.header{
+  width: 1920px;
+  height: 50px;
+  background-color: aqua;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 .metin{
-  padding-left: 30px;
+  width: 150px;
+  height: 50px;
   float: left;
-  padding-right: 80px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  text-align:center;
+}
+
+.metin2{
+  width: 150px;
+  height: 50px;
+  float: left;
+  border-right: 1px solid black;
+  text-align:center;
 }
