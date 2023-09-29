@@ -1,32 +1,32 @@
-#main{
-  width: 1920px;
-  height: 1000px;
-  background-color: red;
-  margin-top: -8px;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-.header{
-  width: 1920px;
-  height: 50px;
-  background-color: aqua;
-  margin-top: -8px;
-  margin-left: -8px;
-  margin-right: -8px;
-}
-.metin{
+h1 {
   width: 150px;
   height: 50px;
   float: left;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  text-align:center;
+  text-align: center;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+body {
+  display: flow-root;
+  margin-top: 0px;
+}
+#head {
+  width: auto;
+  height: 50px;
+  background-color: rgb(230, 203, 255);
 }
 
-.metin2{
+.text1 {
   width: 150px;
   height: 50px;
-  float: left;
-  border-right: 1px solid black;
-  text-align:center;
+  float: right;
+  text-align: center;
+  border-right: 1px solid rgb(173, 164, 164);
+}
+#text2 {
+  width: 150px;
+  height: 50px;
+  float: right;
+  text-align: center;
+  border-left: 1px solid rgb(173, 164, 164);
 }
