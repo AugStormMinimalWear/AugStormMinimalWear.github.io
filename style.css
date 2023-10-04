@@ -1,32 +1,34 @@
-h1 {
-  width: 150px;
-  height: 50px;
-  float: left;
-  text-align: center;
-  margin-top: 4px;
-  margin-bottom: 0px;
-}
 body {
-  display: flow-root;
-  margin-top: 0px;
+  margin: 0px;
 }
-#head {
-  width: auto;
-  height: 50px;
-  background-color: rgb(230, 203, 255);
+#top {
+  text-align: center;
+  background-color: rgb(132, 139, 137);
 }
 
-.text1 {
-  width: 150px;
-  height: 50px;
-  float: right;
-  text-align: center;
-  border-right: 1px solid rgb(173, 164, 164);
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
 }
-#text2 {
-  width: 150px;
-  height: 50px;
-  float: right;
+.navbar {
+  background-color: rgb(33, 58, 138);
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
   text-align: center;
-  border-left: 1px solid rgb(173, 164, 164);
+}
+.navbar a:hover {
+  background-color: rgb(17, 35, 73);
+}
+.navbar li {
+  float: right;
 }
