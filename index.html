@@ -8,16 +8,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/jpg" href="/images/Memo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+
+    <script src="index.js"></script>
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">AugStorm</a></li>
-        <li><a href="mehmet.html">Mehmet</a></li>
-        <li><a href="">Home</a></li>
-      </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Home</a>
+      <a href="mehmet.html">Mehmet</a>
+      <a href="#">Aug Storm</a>
+      <div class="dropdown">
+        <a href="#">About Us</a>
+        <div class="content">
+          <a href="#">Emre</a>
+          <a href="#">Ilkin</a>
+        </div>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
     <div class="main">
       <main>
         <div id="logo"><h1>Hendra</h1></div>
@@ -29,7 +48,6 @@
         </p>
       </main>
     </div>
-
     <div>
       <footer id="bottom">&copy Copyright 2023 - All Rights Reserved.</footer>
     </div>
