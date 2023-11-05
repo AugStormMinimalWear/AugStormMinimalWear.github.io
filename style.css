@@ -131,35 +131,36 @@ body::-webkit-scrollbar {
   margin-left: 20px;
 }
 #orta{
-  width: 800px;
+  width: 805px;
   height: 900px;
-  background-color: red;
   margin-left: 50px;
   margin-top: -146px;
 }
 .ortaic{
   width: 800px;
   height: 400px;
-  background-color: blue;
   margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 50px;
 }
 .aboutphoto{
   width: 200px;
   height: 200px;
-  margin-top: 50px;
+  margin-top: 57px;
   margin-left: 50px;
-  border: 5px solid black;
+  border: 5px solid white;
   border-radius: 10px;
   float: left;
 }
 .metin{
   width: 400px;
   height: 200px;
-  background-color: red;
   margin-left: 50px;
   margin-top: 55px;
   float: left;
   text-align: center;
+  border: 5px solid white;
+  border-radius: 5px;
 }
 @keyframes slidedown {
   from {
