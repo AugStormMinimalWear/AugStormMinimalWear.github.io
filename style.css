@@ -43,6 +43,7 @@ body::-webkit-scrollbar {
   background-color: #333333;
   overflow: hidden;
   width: 100%;
+  position: absolute;
 }
 
 /* Style the links inside the navigation bar */
@@ -130,41 +131,42 @@ body::-webkit-scrollbar {
   color: rgb(206, 205, 205);
   margin-left: 20px;
 }
-#orta{
+#orta {
   width: 805px;
   height: 900px;
   margin-left: 50px;
   margin-top: -146px;
 }
-#augleft{
+#augleft {
   float: left;
   width: 450px;
   height: 950px;
   margin-left: -444px;
   margin-top: -147px;
 }
-#augmain{
+#augmain {
   float: left;
   width: 1000px;
   height: 950px;
   margin-top: -147px;
 }
-#augright{
+#augright {
   float: right;
   width: 450px;
   height: 950px;
   margin-right: -400px;
   margin-top: -147px;
 }
-.augleftphoto{
+.augleftphoto {
   width: 200px;
   height: 200px;
   margin-top: 100px;
   margin-left: 110px;
   border: 5px solid white;
   border-radius: 10px;
+  object-fit: cover;
 }
-.augrightphoto{
+.augrightphoto {
   width: 200px;
   height: 200px;
   margin-top: 100px;
@@ -172,14 +174,14 @@ body::-webkit-scrollbar {
   border: 5px solid white;
   border-radius: 10px;
 }
-.ortaic{
+.ortaic {
   width: 800px;
   height: 400px;
   margin-bottom: 10px;
   border-radius: 5px;
   margin-top: 50px;
 }
-.aboutphoto{
+.aboutphoto {
   width: 200px;
   height: 200px;
   margin-top: 57px;
@@ -188,7 +190,7 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   float: left;
 }
-.metin{
+.metin {
   width: 400px;
   height: 200px;
   margin-left: 50px;
@@ -198,12 +200,12 @@ body::-webkit-scrollbar {
   border: 5px solid white;
   border-radius: 5px;
 }
-.baslik{
+.baslik {
   font-size: 36px;
   text-align: center;
-  color: white
+  color: white;
 }
-.augmetin{
+.augmetin {
   width: 600px;
   height: 250px;
   margin-left: 200px;
@@ -238,5 +240,3 @@ body::-webkit-scrollbar {
     width: 100%;
   }
 }
-
-
