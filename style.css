@@ -13,34 +13,17 @@ body::-webkit-scrollbar {
   scrollbar-width: none; /* for Firefox */
   overflow-y: scroll;
 }
-.dropdown a {
-  background-color: #333333;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  cursor: pointer;
-}
 .content a {
   display: block;
   color: black;
   text-decoration: none;
   padding: 10px 15px;
 }
-.dropdown .content {
-  display: none;
-  position: absolute;
-  background-color: whitesmoke;
-  min-width: 100px;
-  box-shadow: 2px 2px 5px #12161f;
-}
-.dropdown:hover .content {
-  display: block;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   position: fixed;
   top: 0;
-  background-color: #333333;
+  background: #12161f;
   overflow: hidden;
   width: 100%;
   position: absolute;
@@ -62,10 +45,13 @@ body::-webkit-scrollbar {
   background-color: #ddd;
   color: black;
 }
-
+.topnav .floatright:hover {
+  background-color: #12161f;
+  color: black;
+}
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04aa6d;
+  background-color: #34425c;
   color: white;
 }
 
@@ -73,7 +59,9 @@ body::-webkit-scrollbar {
 .topnav .icon {
   display: none;
 }
-
+.topnav .floatright {
+  float: right;
+}
 .main {
   position: absolute;
   top: 200px;
@@ -90,7 +78,6 @@ body::-webkit-scrollbar {
   color: rgb(206, 205, 205);
   text-align: center;
 }
-
 #logo {
   text-align: center;
   color: rgb(206, 205, 205);
