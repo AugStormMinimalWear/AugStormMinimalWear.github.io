@@ -79,6 +79,7 @@ nav img {
   background: transparent;
   position: relative;
   cursor: pointer;
+  transition: 1s;
 }
 .hero-btn:hover {
   border: 1px solid #797171;
@@ -98,8 +99,6 @@ nav img {
   color: rgb(206, 205, 205);
   font-size: 50px;
   cursor: default;
-  animation-name: slidedown;
-  animation-duration: 4s;
   text-shadow: 3px 5px 5px rgb(185, 89, 89), -3px -5px 5px rgb(7, 103, 148);
 }
 #logoname {
@@ -112,8 +111,6 @@ nav img {
 }
 #text {
   text-align: center;
-  animation-duration: 4s;
-  animation-name: slidein;
   color: rgb(206, 205, 205);
 }
 #lorem {
@@ -252,25 +249,44 @@ nav .fa-solid {
     padding: 30px;
   }
 }
-@keyframes slidedown {
-  from {
-    margin-top: 100%;
-    width: 105%;
-  }
 
-  to {
-    margin-bottom: 0%;
-    width: 100%;
+/*--------Bottomside--------*/
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
   }
 }
-@keyframes slidein {
-  from {
-    margin-right: 100%;
-    width: 105%;
-  }
 
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+.bottomside {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+}
+.bottom-col {
+  flex-basis: 31%;
+  background: #242936;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.bottomside h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+.bottom-col img {
+  width: 100px;
+}
+.bottom-col:hover {
+  box-shadow: 3px 5px 5px rgb(185, 89, 89), -3px -5px 5px rgb(7, 103, 148);
+}
+#discordpng {
+  width: 200px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
 }
