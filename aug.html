@@ -12,26 +12,25 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Poppins"
     />
-
     <script src="index.js"></script>
-
-    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/67f9fa7d57.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section class="header">
       <nav>
         <a href="index.html"><img src="/images/test.png" /></a>
-        <div class="nav-links">
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">Mehmet</a></li>
-            <li><a href="mehmet.html">AugStorm</a></li>
+            <li><a href="mehmet.html">Mehmet</a></li>
+            <li><a href="aug.html">AugStorm</a></li>
           </ul>
         </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
       </nav>
     </section>
     <div class="main">
@@ -90,5 +89,15 @@
     <div>
       <footer id="bottom">&copy Copyright 2023 - All Rights Reserved.</footer>
     </div>
+    <!------------------JS code for Toggle menu---------------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
   </body>
 </html>
