@@ -227,7 +227,7 @@ nav .fa-solid {
     display: block;
     position: fixed;
     background: #282d38;
-    height: 18%;
+    height: 25%;
     width: 200px;
     top: 0;
     right: -200px;
@@ -317,7 +317,6 @@ nav .fa-solid {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding: 100px;
 }
 .bottom-col {
   flex-basis: 31%;
