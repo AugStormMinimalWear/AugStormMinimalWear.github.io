@@ -8,9 +8,9 @@ body {
   place-items: center;
 }
 body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
+  display: none; /* for Chrome, Safari, and Opera /
+  -ms-overflow-style: none; / for Internet Explorer, Edge /
+  scrollbar-width: none; / for Firefox */
   overflow-y: scroll;
 }
 nav {
@@ -86,6 +86,7 @@ nav .fa-solid {
   cursor: pointer;
   border-radius: 15px;
   transition: 1s;
+  margin-top: 25px;
 }
 .hero-btn:hover {
   border: 1px solid #797171;
@@ -137,12 +138,21 @@ nav .fa-solid {
 
 /*------------------------------------------------------------------------------------------------------------*/
 
-/*--------aug.html CSS--------*/
+/*--------aug.html and mehmet.html CSS--------*/
+a {
+  text-decoration: none;
+}
+a {
+  color: #ddd;
+}
+a:visited {
+  color: #ddd;
+}
 #augleft {
   float: left;
   width: 450px;
   height: 950px;
-  margin-left: -444px;
+  margin-left: -540px;
   margin-top: -70px;
 }
 #augmain {
@@ -150,6 +160,7 @@ nav .fa-solid {
   width: 1000px;
   height: 950px;
   margin-top: -70px;
+  margin-right: 30px;
 }
 #augright {
   float: right;
@@ -202,7 +213,9 @@ nav .fa-solid {
   padding-left: 10px;
   padding-right: 10px;
 }
-/*--------aug.html CSS--------*/
+/*--------aug.html and mehmet.html CSS--------*/
+
+/*------------------------------------------------------------------------------------------------------------*/
 
 /*--------Nav Links for phones--------*/
 
@@ -232,32 +245,36 @@ nav .fa-solid {
 }
 /* "AUG SAYFASININ TELEFON GÖRÜNÜMÜ" */
 @media (max-width: 700px) {
+  nav {
+    width: 900px;
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
   #augleft {
     float: left;
     width: 200px;
     height: 600px;
-    margin-left: -444px;
-    margin-top: -70px;
-    background-color: red;
+    margin-left: -300px;
   }
   #augmain {
     float: left;
     width: 300px;
-    height: 600px;
+    height: 100px;
     margin-top: -70px;
+    margin-left: 200px;
   }
   #augright {
     float: right;
     width: 200px;
     height: 600px;
-    margin-right: -400px;
-    margin-top: -70px;
+    margin-right: -300px;
   }
   .augleftphoto {
     width: 150px;
     height: 150px;
-    margin-top: 90px;
-    margin-left: 250px;
+    margin-left: 360px;
     border: 5px solid white;
     border-radius: 10px;
     object-fit: cover;
@@ -265,7 +282,6 @@ nav .fa-solid {
   .augrightphoto {
     width: 150px;
     height: 150px;
-    margin-top: 90px;
     margin-left: 80px;
     border: 5px solid white;
     border-radius: 10px;
@@ -277,7 +293,7 @@ nav .fa-solid {
   }
   .augmetin {
     width: 300px;
-    height: 475px;
+    height: 190px;
     margin-left: 100px;
     margin-top: 20px;
     margin-bottom: 75px;
@@ -287,10 +303,11 @@ nav .fa-solid {
     padding-top: 15px;
     padding-left: 5px;
     padding-right: 5px;
+    font-size: 10px;
   }
 }
 
-/*--------Bottomside--------*/
+/*--------Bottomside for index.html--------*/
 @media (max-width: 700px) {
   .row {
     flex-direction: column;
